@@ -1,0 +1,40 @@
+name: simple_application_for_review
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  dio: ^5.8.0+1
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Text-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+          weight: 700
